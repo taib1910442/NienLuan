@@ -13,6 +13,7 @@ using Newtonsoft.Json.Serialization;
 using Microsoft.Extensions.FileProviders;
 using System.IO;
 
+
 namespace WebApplication1
 {
     public class Startup
@@ -53,7 +54,6 @@ namespace WebApplication1
             {
                 app.UseDeveloperExceptionPage();
             }
-
             app.UseRouting();
 
             app.UseAuthorization();
